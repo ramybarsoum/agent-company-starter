@@ -1,0 +1,37 @@
+{
+  "name": "agent-company-starter",
+  "version": "1.0.0",
+  "description": "Complete starter kit for bootstrapping AI agent companies. Three-layer verification, 27 skills, GSD v1 execution, self-learning CLAUDE.md.",
+  "bin": {
+    "agent-company-starter": "./bin/cli.mjs"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-company",
+    "claude-code",
+    "gsd",
+    "verification",
+    "qa-agent",
+    "skills",
+    "heartbeat",
+    "autonomous-agents"
+  ],
+  "author": "Ramy Barsoum",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramybarsoum/agent-company-starter.git"
+  },
+  "homepage": "https://github.com/ramybarsoum/agent-company-starter#readme",
+  "files": [
+    "bin/",
+    ".claude/",
+    "company-template/",
+    "playbook/",
+    "skill/",
+    "CLAUDE.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
